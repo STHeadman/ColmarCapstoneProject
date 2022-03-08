@@ -1,4 +1,69 @@
 *{
   font-size: 16px;
-  font-family: Arial serif;
+  font-family: Helvetica, sans-serif;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height: 64px;
+  width: 100%;
+  display: inline-block;
+  background-color: white;
+}
+
+#logo{
+  height:32px;
+  width:auto;
+  vertical-align: middle;
+  margin-left: 24px;
+}
+
+h3{
+  display: inline-block;
+}
+
+#lgray{
+  color: gray;
+  font-weight: 400;
+}
+
+ul{
+  float:right;
+  margin-right: 24px;
+}
+
+ul li{
+  display: inline;
+  margin-left: 16px;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+.BannerBG{
+  background-color: lightgrey;
+}
+
+.banner{
+  display: inline-block;
+  width: 60%;
+  margin: 32px 24px;
+}
+
+#bimage{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bannertext{
+  display: inline-block;
+  width: 32%;
 }
