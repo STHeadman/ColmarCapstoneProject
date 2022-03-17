@@ -67,3 +67,28 @@ a{
   display: inline-block;
   width: 32%;
 }
+
+#Lbannertext{
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: grey;
+}
+
+#bannerp{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: grey;
+  line-height: 2rem;
+}
+
+#SHbutton{
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  background-color: grey;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 500;
+
+}
