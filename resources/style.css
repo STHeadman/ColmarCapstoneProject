@@ -8,6 +8,7 @@ html, body{
   padding: 0;
 }
 
+/* Header and Navigation */
 header{
   height: 64px;
   width: 100%;
@@ -45,6 +46,8 @@ a{
   text-decoration: none;
   color: gray;
 }
+
+/* Banner Div and Start button */
 
 .BannerBG{
   background-color: lightgrey;
@@ -90,5 +93,53 @@ a{
   margin: 0 auto;
   text-align: center;
   font-weight: 500;
+}
 
+/* Information Div */
+.infoBG{
+  background-color: white;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 32px 0;
+}
+
+.infomain{
+  padding: 0 24px;
+}
+
+#infoimg{
+  width: 100%;
+  height: auto;
+  display: block;
+  vertical-align: middle;
+}
+
+.info_orientation{
+  display:flex;
+  align-items: center;
+  border: 1px solid grey;
+  margin-bottom: 5px;
+}
+
+
+#imgori{
+  margin: 16px;
+  width: 40%;
+  height: auto;
+  display: inline-block;
+}
+
+#oriinfo{
+  margin: 8px;
+}
+
+.readmore{
+}
+
+h4{
+  font-size: 1.5em;
+}
+
+h5{
+  font-weight: 300;
 }
